@@ -2312,6 +2312,7 @@ input[type="radio"] + label:before {
 #main .row article .caption h6 {
   font-size: 1.25rem;
   margin-bottom: 0.25rem;
+  color: #ffffff;
 }
 
 #main .row article .caption > * {
