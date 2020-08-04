@@ -2737,7 +2737,7 @@ input[type="button"].icon,
 .button.icon {
   padding-left: 1.35em;
   color: #b2b2b2 !important;
-  border: solid 1.5px rgba(255, 255, 255, 0.7);
+  border: solid 1.5px #b2b2b2;
   height: calc(2.25em + 4px);
   line-height: 2.25em;
   min-width: 2em;
