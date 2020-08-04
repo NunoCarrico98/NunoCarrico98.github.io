@@ -194,7 +194,7 @@ body,
 input,
 select,
 textarea {
-  color: #a2a2a2;
+  color: #787878;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 400;
@@ -230,6 +230,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
+  color: #787878;
 }
 
 h1,
@@ -238,7 +239,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #787878;
+  color: #444444;
   font-weight: 400;
   line-height: 1em;
   margin: 0 0 1em 0;
@@ -1936,7 +1937,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  background: #f7f7f7;
+  background: #00000013;
   border-radius: 0.35em;
   border: solid 2px transparent;
   color: inherit;
@@ -2077,22 +2078,22 @@ input[type="radio"] + label:before {
 }
 
 ::-webkit-input-placeholder {
-  color: #b2b2b2 !important;
+  color: #787878 !important;
   opacity: 1;
 }
 
 :-moz-placeholder {
-  color: #b2b2b2 !important;
+  color: #787878 !important;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #b2b2b2 !important;
+  color: #787878 !important;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #b2b2b2 !important;
+  color: #787878 !important;
   opacity: 1;
 }
 
@@ -2325,6 +2326,7 @@ input[type="radio"] + label:before {
 
 #main .row article .caption p {
   margin: 0 0 0 0;
+  color: #49bf9d;
 }
 
 #main .row article .caption h2,
@@ -2698,8 +2700,8 @@ input[type="button"],
     border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 2px #efefef;
-  color: #efefef !important;
+  border: solid 2px #787878;
+  color: #787878 !important;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -2734,8 +2736,8 @@ input[type="reset"].icon,
 input[type="button"].icon,
 .button.icon {
   padding-left: 1.35em;
-  color: #787878 !important;
-  border: solid 1.5px #787878;
+  color: rgba(255, 255, 255, 0.7) !important;
+  border: solid 1.5px rgba(255, 255, 255, 0.7);
   height: calc(2.25em + 4px);
   line-height: 2.25em;
   min-width: 2em;
@@ -2858,7 +2860,7 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background-color: #1f1815;
+  background-color: #000000;
   background-attachment: scroll, scroll;
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
@@ -2921,7 +2923,7 @@ input[type="button"]:disabled,
 }
 
 #footer .icons a {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #footer .copyright {
@@ -2933,7 +2935,6 @@ input[type="button"]:disabled,
 }
 
 #footer .copyright li {
-  border-left: solid 1px rgba(255, 255, 255, 0.25);
   display: inline-block;
   line-height: 1em;
   margin-left: 0.75em;
@@ -2962,7 +2963,7 @@ input[type="button"]:disabled,
 #main > section {
   border-top: solid 2px #efefef;
   margin: 4em 0 0 0;
-  padding: 4em 0 0 0;
+  padding: 2em 0 0 0;
 }
 
 #main > section:first-child {
