@@ -2318,6 +2318,7 @@ input[type="radio"] + label:before {
   font-size: 0.8rem;
   border-radius: 0.35rem;
   overflow: hidden;
+  line-height: 16px;
 }
 
 #main .row article .caption a {
@@ -2338,7 +2339,7 @@ input[type="radio"] + label:before {
   -webkit-transition: opacity 0.2s ease-in-out;
   -ms-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.25rem;
   color: #ffffff;
   opacity: 0;
@@ -2363,39 +2364,81 @@ input[type="radio"] + label:before {
 #main .row article:hover .caption h4,
 #main .row article:hover .caption h5,
 #main .row article:hover .caption h6 {
-  font-size: 1.25rem;
-  margin-bottom: 0.25rem;
-  color: #ffffff;
   opacity: 1;
 }
 
 @media screen and (max-width: 1280px) {
-  #main .row article {
-    width: 33.33333%;
-  }
-
   #main .row article .caption {
     padding: 1rem;
+  }
+
+  #main .row article .caption h2,
+  #main .row article .caption h3,
+  #main .row article .caption h4,
+  #main .row article .caption h5,
+  #main .row article .caption h6 {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    color: #ffffff;
+    opacity: 1;
+    line-height: 13px;
+  }
+
+  #main .row article .caption p {
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #49bf9d;
+    font-size: 0.4rem;
   }
 }
 
 @media screen and (max-width: 980px) {
-  #main .row article {
-    width: 50%;
-  }
-
   #main .row article .caption {
     padding: 1rem;
+  }
+
+  #main .row article .caption h2,
+  #main .row article .caption h3,
+  #main .row article .caption h4,
+  #main .row article .caption h5,
+  #main .row article .caption h6 {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  #main .row article .caption p {
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #49bf9d;
+    font-size: 0.5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  #main .row article {
-    width: 100%;
-  }
-
   #main .row article .caption {
     padding: 1rem;
+    line-height: 5px;
+  }
+
+  #main .row article .caption h2,
+  #main .row article .caption h3,
+  #main .row article .caption h4,
+  #main .row article .caption h5,
+  #main .row article .caption h6 {
+    font-size: 0.5rem;
+    margin-bottom: 0.2rem;
+    color: #ffffff;
+    opacity: 1;
+    line-height: 8px;
+  }
+
+  #main .row article .caption p {
+    margin: 0 0 0 0;
+    padding: 0;
+    color: #49bf9d;
+    font-size: 0.25rem;
   }
 }
 
