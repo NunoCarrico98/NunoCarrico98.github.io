@@ -2419,7 +2419,7 @@ input[type="radio"] + label:before {
 @media screen and (max-width: 480px) {
   #main .row article .caption {
     padding: 1rem;
-    line-height: 5px;
+    line-height: 2px;
   }
 
   #main .row article .caption h2,
@@ -2427,7 +2427,7 @@ input[type="radio"] + label:before {
   #main .row article .caption h4,
   #main .row article .caption h5,
   #main .row article .caption h6 {
-    font-size: 0.5rem;
+    font-size: 0.35rem;
     margin-bottom: 0.2rem;
     color: #ffffff;
     opacity: 1;
@@ -2438,7 +2438,7 @@ input[type="radio"] + label:before {
     margin: 0 0 0 0;
     padding: 0;
     color: #49bf9d;
-    font-size: 0.25rem;
+    font-size: 0.16rem;
   }
 }
 
